@@ -278,6 +278,26 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.headersticky {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+ 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -294,7 +314,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  position: fixed;
+
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
@@ -363,7 +383,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  margin-top: 130px;
+  
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
