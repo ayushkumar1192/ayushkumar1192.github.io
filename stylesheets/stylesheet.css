@@ -49,6 +49,7 @@ Theme Styles
 *******************************************************************************/
 
 body {
+  margin-top: 130px;
   box-sizing: border-box;
   color:#373737;
   background: #212121;
